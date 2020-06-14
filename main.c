@@ -4,6 +4,7 @@
 unsigned long long int varianceWithGenerator(int n, int start, int scale, int bias, int mod) ;
 int junkkyFunction();
 void testyFunction();
+// sum junk comment
 int main() {
     testyFunction();
 junkkyFunction();
@@ -44,8 +45,9 @@ int junkkyFunction(){
     printf("this function is a fucking function to test the git ");
 }
 void lolipop(){
-    // suck the lolipop guyyyyy
+    // remove suck line
 }
 void addedLolip(){
-    printf("this a message form loli");
+    printf("this a message form lolipop ");
+    //adding some comemnt below 
 }
