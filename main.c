@@ -46,3 +46,6 @@ int junkkyFunction(){
 void lolipop(){
     // suck the lolipop guyyyyy
 }
+void addedLolip(){
+    printf("this a message form loli");
+}
