@@ -5,6 +5,8 @@ unsigned long long int varianceWithGenerator(int n, int start, int scale, int bi
 int junkkyFunction();
 void testyFunction();
 // sum junk comment
+// funlly generator build and time to merge
+
 int main() {
     testyFunction();
 junkkyFunction();
@@ -50,4 +52,8 @@ void lolipop(){
 void addedLolip(){
     printf("this a message form lolipop ");
     //adding some comemnt below 
+}
+void generator(){
+    printf("hi I'm totally create to generate codes");
+    // another from server
 }
