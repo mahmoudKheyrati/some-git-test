@@ -55,4 +55,5 @@ void addedLolip(){
 }
 void generator(){
     printf("hi I'm totally create to generate codes");
+    // another from server
 }
