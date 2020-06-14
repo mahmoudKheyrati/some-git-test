@@ -1,13 +1,10 @@
-#include <string.h>
 #include <stdio.h>
-#include <stdlib.h>
 
 
 unsigned long long int varianceWithGenerator(int n, int start, int scale, int bias, int mod) ;
+void testyFunction();
 int main() {
-//    unsigned long long int a = 9223367270596896309u + 4983855327025u;
-//    printf("%llu", a);
-//    return 0 ;
+    testyFunction();
     int number = 0;
     scanf("%i",&number);
     for (int i = 0; i < number; ++i) {
@@ -27,10 +24,6 @@ unsigned long long int varianceWithGenerator(int n, int start, int scale, int bi
     double squareSum =0 ;
     for (int j = 0; j < n; ++j) {
         unsigned long long int current = (prev * scale + bias) % mod;
-        if((squareSum<0 && (squareSum+current*current)>0 )||(squareSum>0 && (squareSum+current*current)<0 )){
-        printf("%lld - %lli -- %lld\n",squareSum,current*current,squareSum+current*current);
-
-        }
         sum+=current;
         squareSum+=(double)(current*current)/n;
         prev = current;
@@ -39,4 +32,8 @@ unsigned long long int varianceWithGenerator(int n, int start, int scale, int bi
     double sqAvg = (double)squareSum;
     return ( unsigned long long int )(sqAvg - avg*avg);
 
+}
+void testyFunction(){
+    printf("hi mahmoud, how are you today");
+    //do some operation
 }
