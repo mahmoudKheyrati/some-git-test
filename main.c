@@ -43,3 +43,6 @@ void testyFunction(){
 int junkkyFunction(){
     printf("this function is a fucking function to test the git ");
 }
+void lolipop(){
+    // suck the lolipop guyyyyy
+}
