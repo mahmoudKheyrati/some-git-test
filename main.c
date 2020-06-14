@@ -1,13 +1,13 @@
-#include <string.h>
 #include <stdio.h>
-#include <stdlib.h>
 
 
 unsigned long long int varianceWithGenerator(int n, int start, int scale, int bias, int mod) ;
+int junkkyFunction();
 int main() {
 //    unsigned long long int a = 9223367270596896309u + 4983855327025u;
 //    printf("%llu", a);
 //    return 0 ;
+junkkyFunction();
     int number = 0;
     scanf("%i",&number);
     for (int i = 0; i < number; ++i) {
@@ -39,4 +39,7 @@ unsigned long long int varianceWithGenerator(int n, int start, int scale, int bi
     double sqAvg = (double)squareSum;
     return ( unsigned long long int )(sqAvg - avg*avg);
 
+}
+int junkkyFunction(){
+    printf("this function is a fucking function to test the git ");
 }
