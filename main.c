@@ -3,10 +3,9 @@
 
 unsigned long long int varianceWithGenerator(int n, int start, int scale, int bias, int mod) ;
 int junkkyFunction();
+void testyFunction();
 int main() {
-//    unsigned long long int a = 9223367270596896309u + 4983855327025u;
-//    printf("%llu", a);
-//    return 0 ;
+    testyFunction();
 junkkyFunction();
     int number = 0;
     scanf("%i",&number);
@@ -27,10 +26,6 @@ unsigned long long int varianceWithGenerator(int n, int start, int scale, int bi
     double squareSum =0 ;
     for (int j = 0; j < n; ++j) {
         unsigned long long int current = (prev * scale + bias) % mod;
-        if((squareSum<0 && (squareSum+current*current)>0 )||(squareSum>0 && (squareSum+current*current)<0 )){
-        printf("%lld - %lli -- %lld\n",squareSum,current*current,squareSum+current*current);
-
-        }
         sum+=current;
         squareSum+=(double)(current*current)/n;
         prev = current;
@@ -40,6 +35,11 @@ unsigned long long int varianceWithGenerator(int n, int start, int scale, int bi
     return ( unsigned long long int )(sqAvg - avg*avg);
 
 }
+void testyFunction(){
+    printf("hi mahmoud, how are you today");
+    //do some operation
+}
+
 int junkkyFunction(){
     printf("this function is a fucking function to test the git ");
 }
